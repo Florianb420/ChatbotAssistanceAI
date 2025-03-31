@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful</title>
+    <style>
+        :root {
+            --primary-color: #8B0000;
+            --primary-light: #A52A2A;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --background: #ffffff;
+            --surface: #fff5f5;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: var(--surface);
+        }
+        .container {
+            background: var(--background);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            border: 1px solid var(--primary-light);
+        }
+        h1 {
+            color: var(--primary-color);
+        }
+        .success-message {
+            color: var(--text-primary);
+            margin: 20px 0;
+        }
+        .home-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .home-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Successful! 🎉</h1>
+        <p class="success-message">Thank you for your payment. Your AI-powered API application development will begin shortly.</p>
+        <a href="/" class="home-link">Return to Home</a>
+    </div>
+</body>
+</html> 
